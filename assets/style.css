@@ -1,0 +1,143 @@
+nav {
+  background-color: green;
+}
+
+/*  need to place logo below */
+/* .brand-logo {
+  background-image: url("https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.yote.io%2Fblog%2Flogosmall&psig=AOvVaw0mg2_Q2p5LMxIwpaxARart&ust=1597447573402000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICUrouqmesCFQAAAAAdAAAAABAI");
+}
+ */
+main {
+  color: green;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* added footer Aug. 13 2:26pm-5pm talia */
+.footer {
+  position: absolute;
+  bottom: 0;
+
+  width: 100vw;
+  height: 70px;
+
+  background-color: green;
+}
+.text-muted-footer {
+  margin-top: 16px;
+  width: 100%;
+
+  color: white;
+  text-align: center;
+  background-color: green;
+}
+
+.two-toned-footer-color {
+  height: 7px;
+  width: 100%;
+  padding-top: red;
+  background-color: lightgreen;
+}
+.hero {
+  height: 100vw;
+  width: 100%;
+  margin-bottom: 0px;
+  background-image: url("./assets/style.css");
+  background-size: cover;
+  background-position: center;
+}
+
+/* navbar */
+.navbar {
+  overflow: hidden;
+  background-color: green;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* drop down */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: darkgreen;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.center-content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+#welcome-page {
+  background-image: url(./bg1.jpg);
+  background-size: cover;
+}
+
+#index-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+#startBtn {
+  border-radius: 20px;
+  height: 6rem;
+  padding-top: 1rem;
+  font-size: 5rem;
+  margin-top: 18rem;
+  font-family: "Brush Script MT", cursive;
+  box-shadow: none;
+  background: rgba(0, 0, 0, 0.262);
+  color: white;
+}
+
+
